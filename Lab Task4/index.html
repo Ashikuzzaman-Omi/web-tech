@@ -1,0 +1,38 @@
+
+<html>
+  <head>
+    <title>Login Form</title>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Login Form</legend>
+
+      <form>
+        <table>
+
+          <tr>
+            <td>Username</td>
+            <td><input type="text" id="username" /></td>
+            <td><p id="userError"></p></td>
+          </tr>
+
+          <tr>
+            <td>Password</td>
+            <td><input type="password" id="password" /></td>
+            <td><p id="passError"></p></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <button onclick="return login();">Login</button>
+            </td>
+          </tr>
+
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>
